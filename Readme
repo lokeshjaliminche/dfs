@@ -1,0 +1,8 @@
+Install kernel headers
+
+ls /usr/src/
+
+make
+insmod ofd.ko
+lsmod
+rmmod ofd
